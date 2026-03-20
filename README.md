@@ -18,6 +18,16 @@ H_Pylori_Infection.
 
 ● Engineered Fields: Overall_Risk_Score, Risk_Level.
 
+EDA - 
+
+● Data Imbalance - The patient count in the medium risk level is much more than the low and then in high risk level. 
+
+● Cancer Types By Gender - Majority of females suffer from Breast cancer, whereas manjority of males suffer from prostrate cancer.
+
+● Factors Contributing to High Risk Level - Air pollution, smoking , alcohol use, diet_salted_processed, Occupational hazards, diet_red_meat, obesity where the main factors Contributing to high risk
+level.
+
+
 Data Preprocessing - 
 
 ● Dropped columns to avoid any data leakage and correlation with the target column.
@@ -35,6 +45,12 @@ Data-level Resampling Technique -
 Hyperparameter Optimization -
 
 ● Optuna Tuning
+
+Deployment - 
+
+● Streamlit 
+
+● AWS - EC2
 
 
 Conclusion -
